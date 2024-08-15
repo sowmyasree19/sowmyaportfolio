@@ -1,0 +1,129 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	
+}
+
+header {
+	background-color:grey;
+	color: white;
+	height:700px;
+	text-align: left;
+	margin-top: 10px;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 20px;
+	display: flex;
+	justify-content: space-between;
+	background-color: #444;
+	font-size: 30px;
+	  
+	  
+}
+
+nav li {
+	margin-right: 20px;
+	text-size-adjust: 10;
+}
+
+nav a {
+	color:white;
+	text-decoration: none;
+}
+
+section {
+	margin: 20px;
+	padding: 20px;
+	background-color: burlywood;
+	font-size: 20px;
+}
+
+h2 {
+	color: black;
+}
+
+footer {
+	background-color: #333;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	clear: both;
+}
+.head-img{
+	border-radius: 0%;
+	margin-top:5rem;
+}
+.head-img img{
+	position: relative;
+	top:5rem;
+	width:20vw;
+	height:10;
+	padding:5;
+	border-radius: 50%;
+	margin-left: 1150px;
+}
+h1{
+	font-size: 60px;
+	text-align:left;
+}
+p{
+	font-size: 28px;
+}
+.footer .social{
+	text-align: center;
+	padding-bottom: 25px;
+	color:black;
+}
+.footer .social a{
+    font-size: 25px;
+    color:white;
+    border:2px solid white;
+    width:42px;
+    height:42px;
+    line-height: 42px;
+    display:inline-box;
+    text-align: center;
+    border-radius: 50%;
+    margin:0 10px;
+    transition: 0.3s;
+}
+.footer .social a:hover{
+
+    background-color: orange;
+    font-size: 18px;
+    line-height:1.6;
+    margin-bottom: 0;
+    text-align:center;
+}
+.footer ul{
+    margin-top:0;
+    padding:0;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+    text-align: center;
+    
+}
+.footer ul li a{
+    color:white;
+    border-bottom:3px solid transparent;
+    transition:0.3s;
+}
+.footer ul li a:hover{
+    color:var(--main-color);
+    border-bottom: 3px solid white;
+
+}
+.footer ul li{
+    display:inline-block;
+    padding:0 10px;
+}
+.footer .copyright{
+    margin-top: 50px;
+    text-align: center;
+    font-size:16px;
+    color:white;
+}
